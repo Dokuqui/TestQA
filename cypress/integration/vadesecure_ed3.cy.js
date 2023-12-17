@@ -3,7 +3,7 @@ describe('Google Search', () => {
     cy.visit('https://www.google.com');
     cy.get('#L2AGLb').click();
     cy.get('.gLFyf').type('vadesecure');
-    cy.contains('vadesecure').click() ;
+    cy.contains('vadesecure').click();
 
 
     cy.wait(2000);
